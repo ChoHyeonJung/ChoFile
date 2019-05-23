@@ -1,0 +1,172 @@
+{\rtf1\ansi\ansicpg949\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh9440\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1. select * from all_tables\
+where table_name = 'EMP'\
+\
+2. select * from all_tables\
+where table_name = 'DEPT'\
+\
+3. select * from Scott.emp\
+\
+4. select * from Scott.dept\
+\
+5. select empno,ename,sal,comm,hiredate from scott.emp\
+\
+6. select \
+empno "employee no",\
+ename "name",\
+sal "salary",\
+comm "commision",\
+hiredate "hire date"\
+from scott.emp\
+\
+7. \'b1\'de\'bf\'a9(\'b3\'f4\'c0\'ba\'bc\'f8\'bc\'ad),\'ba\'ce\'bc\'ad\'b9\'f8\'c8\'a3(\'b3\'b7\'c0\'ba\'bc\'f8\'bc\'ad)\
+select deptno,empno,ename,sal,comm\
+from scott.emp\
+order by sal desc,deptno asc\
+\
+   \'ba\'ce\'bc\'ad\'b9\'f8\'c8\'a3(\'b3\'b7\'c0\'ba\'bc\'f8\'bc\'ad),\'b1\'de\'bf\'a9(\'b3\'f4\'c0\'ba\'bc\'f8\'bc\'ad)\
+\
+select deptno,empno,ename,sal,comm\
+from scott.emp\
+order by deptno asc,sal desc\
+\
+8. select distinct job\
+from scott.emp\
+order by job\
+\
+9. select deptno,job\
+from scott.emp\
+order by deptno,job\
+\
+10. select empno,ename,sal\
+from scott.emp\
+where sal >= 3000\
+\
+11. select ename,deptno\
+from scott.emp\
+where empno = 7788\
+\
+12. select ename\
+from scott.emp\
+where deptno = 10\
+and sal >= 3000\
+\
+13. select deptno,empno,ename,job\
+from scott.emp\
+where JOB = 'MANAGER'\
+\
+14. select deptno,empno,ename,job\
+from scott.emp\
+where JOB = 'SALESMAN'\
+\
+15. select ename,sal\
+from scott.emp\
+where sal >=1500 and sal <= 2850\
+\
+16. select ename,sal\
+from scott.emp\
+where sal < 1500 or sal > 2850\
+\
+17. select deptno,empno,ename,sal\
+from scott.emp\
+where sal >= 3000 or deptno = 10\
+\
+18. select deptno,empno,ename,job\
+from scott.emp\
+where deptno = 10 or deptno = 20\
+\
+19. select ename,deptno\
+from scott.emp\
+where deptno = 10 or deptno = 30\
+order by ename\
+\
+1. \
+2.\
+3.\
+\
+20. select ename\
+from scott.emp\
+where ename like 'A%'\
+\
+21. select ename\
+from scott.emp\
+where ename like '%A%'\
+\
+22. select ename\
+from scott.emp\
+where ename like '%__A%'\
+\
+23. select *\
+from scott.emp\
+where ename like '_____'(\'b9\'d8\'c1\'d9 5\'b0\'b3)\
+\
+24. select ename\
+from scott.emp\
+where deptno = 10 or deptno = 20\
+\
+25. select ename\
+from scott.emp\
+where deptno != 10 or deptno != 20\
+\
+26. select ename,sal\
+from scott.emp\
+where sal >= 1500 and sal <= 2800\
+\
+27. select ename,sal\
+from scott.emp\
+where sal < 1500 or sal > 2800\
+\
+28. select *\
+from scott.emp\
+where comm is null or comm = 0\
+\
+29. select *\
+from scott.emp\
+where comm is not null\
+\
+30. \
+\
+1. select ename\
+from scott.emp \
+where comm is not null\
+\
+2. select *\
+from scott.emp \
+where comm is null\
+\
+3. \
+\
+31. select ename\
+from scott.emp\
+where empno = 000 -> \'c4\'f5\'b8\'ae\'b9\'ae\'b9\'fd\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+32. \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
